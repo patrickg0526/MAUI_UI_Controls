@@ -1,0 +1,9 @@
+﻿using Foundation;
+
+namespace MAUI_UI_Controls;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}
